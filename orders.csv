@@ -1,0 +1,16 @@
+order_id,customer,amount
+1,Alice,120.50
+2,Bob,75.00
+3,Alice,30.00
+4,Charlie,200.00
+5,Bob,
+6,Charlie,abc
+7,,50.00
+8,Alice,49.50
+9,Bob,25.25
+10,Charlie,100.00
+11,Diana,300.00
+12,Diana,50.00
+13,Bob,74.75
+14,Diana,25.00
+15,Eve,90.00
