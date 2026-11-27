@@ -15,5 +15,5 @@ def format_totals(expenses):
     totals = totals_per_category(expenses)
     lines = [f"{category}: ${total:.2f}" for category, total in totals.items()]
     lines.append(f"Grand total: ${sum(totals.values()):.2f}")
-    print(f"Items: {len(expenses)}")
+    print(f"Item: {len(expenses)}")
     return "\n".join(lines)
