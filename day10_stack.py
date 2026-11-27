@@ -11,7 +11,7 @@ def is_valid(s):
     return len(stack) == 0
 
 
-print(is_valid("()[]{}"))   # True
+print(is_valid("()[]"))   # True
 print(is_valid("(]"))       # False
 print(is_valid("([)]"))     # False
 print(is_valid("{[]}"))     # True
